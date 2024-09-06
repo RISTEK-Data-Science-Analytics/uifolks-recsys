@@ -1,0 +1,7 @@
+ipykernel
+pydantic
+nltk
+gensim
+scikit-learn
+networkx
+numpy

@@ -1,7 +1,22 @@
-ipykernel
-pydantic
+##### Standard libraries #####
+ipykernel   # Jupyter notebooks
+pydantic    # Python typing
+numpy       # Matrix manipulation
+networkx    # Graph
+faker       # Dummy data generator
+fastapi     # Backend
+uvicorn     # Backend
+
+##### NLP libraries #####
 nltk
 gensim
+
+##### ML libraries #####
 scikit-learn
-networkx
-numpy
+
+##### Local SQLite development libraries #####
+sqlalchemy
+alembic
+
+##### Postgres library for production #####
+psycopg2-binary

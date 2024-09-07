@@ -20,3 +20,8 @@ source .venv/bin/activate
 py scripts/create_tables.py
 py scripts/populate_db.py
 ```
+
+## 4. Start the backend
+```bash
+uvicorn main:app --reload
+```

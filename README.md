@@ -28,5 +28,5 @@ py scripts/populate_db.py
 
 ## 5. Start the backend
 ```bash
-uvicorn main:app --reload
+uvicorn app:app --reload
 ```

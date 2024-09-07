@@ -5,7 +5,7 @@ from constants.achievement_type import MAX_ACHIEVEMENT_TYPE_ID
 from typing_extensions import Annotated
 
 class Achievement(BaseModel):
-    achievement_id: int
+    id : str
     title: str
     description: str
     issued_date: datetime

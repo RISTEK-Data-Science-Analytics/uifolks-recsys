@@ -20,3 +20,6 @@ alembic
 
 ##### Postgres library for production #####
 psycopg2-binary
+
+##### Fasttext library #####
+fasttext

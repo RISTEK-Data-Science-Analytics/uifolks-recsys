@@ -16,4 +16,13 @@ achievement_type = {
     14: 'Smart City'
 }
 
+achievement_categories = {
+    "Data & Analytics": ['Data Science', 'Analytics', 'Artificial Intelligence'],
+    "Business & Strategy": ['Business Case', 'Business Proposal'],
+    "Technology & Engineering": ['Internet of Things', 'Smart City', 'Game Development'],
+    "Competitions": ['Hackathon', 'Capture The Flag', 'Competitive Programming', 'Olympiad'],
+    "Creative & Design": ['UI/UX', 'Animation'],
+    "Research & Development": ['Scientific Paper']
+}
+
 MAX_ACHIEVEMENT_TYPE_ID = max(achievement_type.keys())

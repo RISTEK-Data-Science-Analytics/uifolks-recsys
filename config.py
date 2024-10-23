@@ -6,7 +6,7 @@ class Settings:
     # PostgreSQL connection string for production (example)
     # SQLALCHEMY_DATABASE_URL = os.getenv("DATABASE_URL", "postgresql://user:password@localhost/dbname")
     
-    ALGORITHMS = ['graph', 'content_based']
+    ALGORITHMS = ['graph', 'content_based', 'fasttext']
     MAX_CONNECTION_RECOMMENDATIONS = 10
 
 settings = Settings()
